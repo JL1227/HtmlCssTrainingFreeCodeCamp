@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/basic.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>Formulario FreeCodeCamp</title>
+</head>
+
+<body>
+    <header>
+        <div class="principal">
+            <div class="fcc">
+                <img src="imagens/codepen.svg" alt="codeOpen">
+                <h1>FCC: Survey Form</h1>
+            </div>
+
+            <div class="linha"></div>
+
+            <div class="follow">
+                <p>freeCodeCamp.org</p>
+                <a href="">Follow</a>
+            </div>
+        </div>
+
+        <nav class="naveg">
+            <a href="">Sign Up</a>
+            <a href="">Log In</a>
+        </nav>
+    </header>
+
+    <div class="titulo2">
+        <h1>freeCodeCamp Survey Form</h1>
+        <p>Thank you for taking the time to help us improve the platform</p>
+    </div>
+
+    <form>
+        <div class="inputText">
+            <p>Name</p> <!-- O certo era colocar label para esses tipos de títulos também -->
+            <input type="text" placeholder="Enter your name">
+
+            <p>Email</p>
+            <input type="email" placeholder="Enter your Email">
+
+            <p>Age</p>
+            <input type="number" placeholder="Enter your age">
+        </div>
+
+        <div class="selectOption">
+            <p>Which option best describes your current role?</p>
+            <select>
+                <option>Student</option>
+                <option>Full Time Job</option>
+                <option>Full Time Learner</option>
+                <option>Prefer not to say</option>
+            </select>
+        </div>
+
+        <div class="checkboxOption">
+            <p>Would you recommend freeCodeCamp to a friend?</p>
+            <div>
+                <input type="checkbox"> Definitely
+            </div>
+            <div>
+                <input type="checkbox"> Maybe
+            </div>
+            <div>
+                <input type="checkbox"> Not sure
+            </div>
+        </div>
+
+        <div class="selectOption">
+            <p>What is your favorite feature of freeCodeCamp?</p>
+            <select>
+                <option>Select an option</option>
+                <option>Challegens</option>
+                <option>Projects</option>
+                <option>Community</option>
+                <option>Open Source</option>
+            </select>
+        </div>
+
+        <div class="checkboxOption">
+            <p>What would you like to see improved? (Check all that apply)</p>
+            <div>
+                <input type="checkbox"> Front-end Projects
+            </div>
+            <div>
+                <input type="checkbox"> Back-end Projects
+            </div>
+            <div>
+                <input type="checkbox"> Data Visualization
+            </div>
+            <div>
+                <input type="checkbox"> Challenges
+            </div>
+            <div>
+                <input type="checkbox"> Open Source Community
+            </div>
+            <div>
+                <input type="checkbox"> Gitter help rooms
+            </div>
+            <div>
+                <input type="checkbox"> Videos
+            </div>
+            <div>
+                <input type="checkbox"> City Meetups
+            </div>
+            <div>
+                <input type="checkbox"> Wiki
+            </div>
+            <div>
+                <input type="checkbox"> Forum
+            </div>
+            <div>
+                <input type="checkbox"> Addtional Courses
+            </div>
+        </div>
+
+        <div>
+            <p>Any comments or suggestions?</p>
+            <textarea name="" id="" cols="70" rows="10" placeholder="Enter your comment here..."></textarea>
+            <button>Submit</button>
+        </div>
+    </form>
+</body>
+
+</html>
+
+
+<!-- Header antigo
+<header>
+        <div class="titulo">
+            <img src="imagens/codepen.svg" alt="codeOpen">
+            <h1>FCC: Survey Form</h1>
+            <div class="subTitulo">
+                <p>freeCodeCamp.org</p>
+                <button>Follow</button>
+            </div>
+        </div>
+
+        <nav class="naveg">
+            <a href="">Sign Up</a>
+            <a href="">Log In</a>
+        </nav>
+    </header>
+
+
+Css no header
+
+header {
+    background-color: #131417;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.naveg {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.naveg a {
+    background-color: #4747d1;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+
+
+
+
+.titulo h1 {
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: 21px;
+}
+
+.titulo img {
+    margin: 5px;
+    float: left;
+}
+
+.subTitulo {
+    display: flex;
+    flex-direction: row;
+    float: left;
+}
+
+.subTitulo button {
+    margin-left: 20px;
+    font-size: 15px;
+    height: 20px;
+}
+-->

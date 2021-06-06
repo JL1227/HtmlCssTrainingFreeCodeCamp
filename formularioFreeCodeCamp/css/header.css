@@ -1,0 +1,71 @@
+header {
+    background-color: #131417;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 35%;
+}
+
+.linha {
+    height: 80%;
+    border-right: solid 2px white;
+}
+
+.fcc {
+    display: flex;
+    flex-direction: row;
+}
+
+.fcc h1 {
+    margin-left: 8px;
+}
+
+.follow {
+    display: flex;
+    flex-direction: row;
+}
+
+.follow a {
+    height: 80%;
+    align-self: center;
+    margin-left: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #565353;
+    color: white;
+    text-decoration: none;
+    padding: 3px;
+}
+
+.follow a:hover {
+    background-color: #646363;
+}
+
+.naveg {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.naveg a {
+    height: 40%;
+    padding: 3px;
+    align-self: center;
+    margin-left: 8px;
+    border: none;
+    border-radius: 10px;
+    background-color: #565353;
+    color: white;
+    text-decoration: none;
+}
+
+.naveg a:hover {
+    background-color: #646363;
+}
